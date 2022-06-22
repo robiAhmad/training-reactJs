@@ -17,13 +17,15 @@ const MealCard = (props) => {
     return (
         <>
             <div style={{ display: "flex", flexWrap: "wrap" }}>
-                {meals.map((meal) => (
-                    <Card
-                        title={meal.strMeal}
-                        imgSource={meal.strMealThumb}
-                        key={meal.idMeal}
-                    />
-                ))}
+                {meals.map((meal) => {
+                    return (
+                        <Card
+                            title={meal.strMeal}
+                            imgSource={meal.strMealThumb}
+                            key={meal.idMeal}
+                        />
+                    );
+                })}
             </div>
             ;
         </>
