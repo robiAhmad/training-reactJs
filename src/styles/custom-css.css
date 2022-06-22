@@ -1,0 +1,22 @@
+body {
+    margin: auto;
+    width: 95%;
+    padding: 10px;
+}
+
+.cardWrapper {
+    max-width: 200px;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.cardImg {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cardText {
+    font-size: 18px;
+    font-weight: 600;
+}
